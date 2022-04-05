@@ -5,7 +5,7 @@ gemspec
 
 if (ruby_version = Gem::Version.new RUBY_VERSION) < (Gem::Version.new '2.1.0')
   if ruby_version < (Gem::Version.new '2.0.0')
-    gem 'addressable', '2.4.0'
+    gem 'addressable', '2.8.0'
     gem 'prawn', '1.3.0'
     gem 'prawn-svg', '0.21.0'
   else
